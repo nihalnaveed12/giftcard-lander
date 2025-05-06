@@ -1,3 +1,6 @@
+
+
+
 const usAndroidOffers = [
   { url: "https://us-android-offer1.com" },
   { url: "https://us-android-offer2.com" },
@@ -65,11 +68,20 @@ function updateUI() {
     progressBar.style.width = "100%";
     button.style.display = "none";
     completionMsg.style.display = "block";
+    chanceText.style.display = "block";
+    progressBar.style.display = "block";
     return;
   }
 
-  chanceText.textContent = `Chance: ${chance}%`;
-  progressBar.style.width = `${chance}%`;
+  if (chance > 0) {
+    chanceText.textContent = `Chance: ${chance}%`;
+    progressBar.style.width = `${chance}%`;
+    chanceText.style.display = "block";
+    progressBar.style.display = "block";
+  } else {
+    chanceText.style.display = "none";
+    progressBar.style.display = "none";
+  }
 
   const now = Date.now();
   const timeLeft = lastClickTime + delayInMs - now;

@@ -11,6 +11,7 @@ html {
   background: linear-gradient(360deg, #4b4b4b, #000000);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .main-container {
