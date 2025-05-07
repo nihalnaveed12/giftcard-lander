@@ -1,26 +1,23 @@
-
-
-
 const usAndroidOffers = [
-  { url: "https://us-android-offer1.com" },
+  { url: " https://directcpi.com/view.php?id=5539229&pub=3266059" },
   { url: "https://us-android-offer2.com" },
   { url: "https://us-android-offer3.com" }
 ];
 
 const usIosOffers = [
-  { url: "https://us-ios-offer1.com" },
+  { url: " https://directcpi.com/view.php?id=5539229&pub=3266059" },
   { url: "https://us-ios-offer2.com" },
   { url: "https://us-ios-offer3.com" }
 ];
 
 const intlAndroidOffers = [
-  { url: "https://intl-android-offer1.com" },
+  { url: " https://directcpi.com/view.php?id=5539229&pub=3266059" },
   { url: "https://intl-android-offer2.com" },
   { url: "https://intl-android-offer3.com" }
 ];
 
 const intlIosOffers = [
-  { url: "https://intl-ios-offer1.com" },
+  { url: " https://directcpi.com/view.php?id=5539229&pub=3266059" },
   { url: "https://intl-ios-offer2.com" },
   { url: "https://intl-ios-offer3.com" }
 ];
